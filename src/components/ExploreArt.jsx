@@ -89,108 +89,87 @@ const artworks = [
   },
   {
     id: 13,
-    title: "American Gothic",
-    price: 60000000,
-    artist: "Grant Wood",
-    image: "https://upload.wikimedia.org/wikipedia/commons/c/cc/Grant_Wood_-_American_Gothic_-_Google_Art_Project.jpg"
-  },
-  {
-    id: 14,
     title: "The Night Watch",
     price: "Priceless",
     artist: "Rembrandt van Rijn",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/The_Night_Watch_-_HD.jpg/1200px-The_Night_Watch_-_HD.jpg"
   },
   {
-    id: 15,
-    title: "Bal du moulin de la Galette",
-    price: 78000000,
-    artist: "Pierre-Auguste Renoir",
-    image: "https://upload.wikimedia.org/wikipedia/commons/4/40/Auguste_Renoir_-_Dance_at_Le_Moulin_de_la_Galette_-_Mus%C3%A9e_d%27Orsay_RF_2739_%28derivative_work_-_AutoContrast_edit_in_LCH_space%29.jpg"
-  },
-  {
-    id: 16,
+    id: 14,
     title: "Napoleon Crossing the Alps",
     price: "Priceless",
     artist: "Jacques-Louis David",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/David_-_Napoleon_crossing_the_Alps_-_Malmaison2.jpg/1200px-David_-_Napoleon_crossing_the_Alps_-_Malmaison2.jpg"
   },
   {
-    id: 17,
+    id: 15,
     title: "A Sunday Afternoon on the Island of La Grande Jatte",
     price: 100000000,
     artist: "Georges Seurat",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/A_Sunday_on_La_Grande_Jatte%2C_Georges_Seurat%2C_1884.jpg/400px-A_Sunday_on_La_Grande_Jatte%2C_Georges_Seurat%2C_1884.jpg"
   },
   {
-    id: 18,
+    id: 16,
     title: "The Arnolfini Portrait",
     price: 92000000,
     artist: "Jan van Eyck",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/The_Arnolfini_portrait_%281434%29.jpg/1200px-The_Arnolfini_portrait_%281434%29.jpg"
   },
   {
-    id: 19,
+    id: 17,
     title: "Christina's World",
     price: 5000000,
     artist: "Andrew Wyeth",
     image: "https://www.tallengestore.com/cdn/shop/products/andrew_wyeth_-christinas_world_32c9c3e2-d358-40b0-b715-76f8e0996fbc.jpg?v=1495272827"
   },
   {
-    id: 20,
+    id: 18,
     title: "The Sleeping Gypsy",
     price: 8000000,
     artist: "Henri Rousseau",
     image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/La_Boh%C3%A9mienne_endormie.jpg/1200px-La_Boh%C3%A9mienne_endormie.jpg"
   },
   {
-    id: 21,
+    id: 19,
     title: "The Great Wave Of Kanagawa",
     price: "2.8 million",
     artist: "Hokusai",
     image: "https://upload.wikimedia.org/wikipedia/commons/a/a5/Tsunami_by_hokusai_19th_century.jpg"
   },
   {
-    id: 22,
+    id: 20,
     title: "The Card Players",
     price: 250000000,
     artist: "Paul Cézanne",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_EcgOQqicKo0GKp51dnn7RJJMktrKFG3kbA&s"
   },
   {
-    id: 23,
+    id: 21,
     title: "The Hay Wain",
     price: 13000000,
     artist: "John Constable",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtTfPdPPXpBH1wKUyIOUwzG2SkeY-PQBwr9w&s"
   },
   {
-    id: 24,
+    id: 22,
     title: "The Dance",
     price: 78000000,
     artist: "Pierre-Auguste Renoir",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcY2yofMRTvnDuKZwr-AWckJzASe0o70xNDw&s"
   },
   {
-    id: 25,
+    id: 23,
     title: "The Swing",
     price: 80-100,
     artist: "Eugène Delacroix",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWugiNO93OnYKP3nX5Z4Dq33Yvn-_s2fgR_w&s"
   },
   {
-    id: 26,
+    id: 24,
     title: "The Last Supper",
     price: "Priceless",
     artist: "Leonardo da Vinci",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Leonardo_da_Vinci_-_The_Last_Supper_high_res.jpg/2560px-Leonardo_da_Vinci_-_The_Last_Supper_high_res.jpg"
-  },
-  {
-    id: 27,
-    title: "The Garden of Earthly Delights",
-    price: "Not for sale (considered a national treasure, housed in Victoria Memorial Hall, Kolkata)",
-    artist: "Abanindranath Tagore",
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Bharat_Mata_by_Abanindranath_Tagore.jpg/960px-Bharat_Mata_by_Abanindranath_Tagore.jpg"
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg/960px-The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg"
   }
 ];
 

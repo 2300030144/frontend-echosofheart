@@ -23,7 +23,7 @@ const Signup = () => {
     } else {
       setError("");
       try {
-        const response = await axios.post("http://localhost:8080/signup", {
+        const response = await axios.post("http://localhost:8081/signup", {
           fullName,
           email,
           password,
