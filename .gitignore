@@ -7,16 +7,23 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Dependency and Build Directories (CRITICAL)
+/node_modules
+/dist
+/dist-ssr
+/build
+/out
 *.local
+
+# Configuration and Secrets (CRITICAL for Docker environments)
+.env
+.env.*
+.DS_Store
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
 .idea
-.DS_Store
 *.suo
 *.ntvs*
 *.njsproj

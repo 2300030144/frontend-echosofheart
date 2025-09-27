@@ -8,19 +8,21 @@ import Signup from "./components/Signup";
 import Login from "./components/Login";
 import VirtualSpace from "./components/VirtualSpace";
 import AuctionCard from "./components/AuctionCard";
+import ArtistProfiles from "./components/ArtistProfilePage"; 
 
 const App = () => {
-  return (
-    <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="/explore" element={<ExploreArt />} />
-      <Route path="/signup" element={<Signup />} />
-      <Route path="/login" element={<Login />} />
-      <Route path="/dashboard" element={<Dashboard />} />
-      <Route path="/VirtualSpace" element={<VirtualSpace />} />
-      <Route path="/auctioncard" element={<AuctionCard />} />  
-    </Routes>
-  );
+ return (
+<Routes>
+<Route path="/" element={<HomePage />} />
+ <Route path="/explore" element={<ExploreArt />} />
+ <Route path="/signup" element={<Signup />} />
+ <Route path="/login" element={<Login />} />
+<Route path="/dashboard" element={<Dashboard />} />
+ <Route path="/VirtualSpace" element={<VirtualSpace />} />
+ <Route path="/auctioncard" element={<AuctionCard />} /> 
+ <Route path="/artists" element={<ArtistProfiles />} /> // Corrected component name
+    </Routes>
+  );
 };
 
 export default App;

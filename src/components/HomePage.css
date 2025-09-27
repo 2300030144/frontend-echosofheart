@@ -189,3 +189,22 @@ body, html {
 .edit-icon:hover {
   color: #007bff;
 }
+
+/* Add to HomePage.css */
+.artists-btn {
+  /* You can copy the styles from other buttons to make them consistent */
+  background-color: #8A2BE2; /* A shade of blue-violet */
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.artists-btn:hover {
+  background-color: #7A1DE1; /* A slightly darker shade for hover effect */
+}
